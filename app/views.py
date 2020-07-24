@@ -1,6 +1,4 @@
-from flask import Flask
-
-app = Flask("31")
+from app import app
 
 @app.route('/')
 def main():
